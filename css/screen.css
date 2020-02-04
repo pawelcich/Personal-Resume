@@ -1,0 +1,34 @@
+.container {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top-content-area {
+    border-bottom: 3px solid black;
+    margin-top: 0px;
+
+}
+
+.name {
+   text-align: center;
+   padding-bottom: 0px;
+}
+
+.email-address {
+    width: 43%;
+    float: left;
+}
+
+.location {
+    width: 20%;
+    float: left;
+}
+
+.version {
+    float: right;
+}
+
+.fix {
+    clear: both;
+}
