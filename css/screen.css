@@ -6,16 +6,17 @@
 
 .top-content-area {
     border-bottom: 3px solid black;
-    margin-top: 0px;
+    height: 40px;
 
 }
 
 .name {
    text-align: center;
-   padding-bottom: 0px;
+   margin-bottom: 0px;
 }
 
 .email-address {
+    padding-left: 5px;
     width: 43%;
     float: left;
 }
@@ -26,6 +27,7 @@
 }
 
 .version {
+    padding-right: 5px;
     float: right;
 }
 
