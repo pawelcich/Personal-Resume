@@ -45,11 +45,17 @@ header p {
 }
 
 
-footer {
+footer p {
     text-align: center;
     font-size: 85%;
     color: #999;
     padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 0;
+}
+
+footer hr {
+    margin-bottom: 0;
 }
 
 /* Section settings */
@@ -70,6 +76,7 @@ section span.position {
     width: 90%;
     float: left;
     font-style: italic;
+    margin-bottom: 5px;
 }
 
 section span.period {
@@ -87,6 +94,17 @@ section span.remaining-period {
 section div {
     display: inline-block;
     margin-bottom: 10px;
+    width: 100%;
+}
+
+section div h4 {
+    display: inline-block;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+section div ul {
+    margin: 0px;
 }
 
 section h3 {
