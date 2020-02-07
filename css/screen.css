@@ -270,11 +270,13 @@ section a:hover,
     }
 
     section span.long {
-        width: 60%;
+        width: 65%;
+        float: left;
     }
 
     section span.micro-long {
-        width: 40%;
+        width: 35%;
+        float: right;
     }
 
 }
