@@ -169,7 +169,11 @@ section p {
     margin-bottom: 0px;
 }
 
-section a,
+section a {
+    text-decoration: none;
+    color: black;
+}
+
 .email-address a {
     text-decoration: none;
     color: black;
@@ -181,7 +185,125 @@ section a:hover,
     text-shadow: 3px 3px 10px grey;
 }
 
+/* Adjusting for screens max 880px */
+@media screen and (max-width:880px) {
+    .version {
+        display: none;
+    }
 
+    .location {
+        float: right;
+    }
+
+    section span.location {
+        display: none;
+    }
+
+    section div {
+        display: inline-block;
+        margin-bottom: 20px;
+        width: 100%;
+        text-align: justify;
+    }
+
+    section div ul {
+        margin: 0px;
+        text-align: left;
+    }
+
+    section span.position {
+        width: 50%;
+        float: right;
+        font-style: italic;
+        margin-bottom: 5px;
+        text-align: right;
+        font-size: small;
+    }
+
+    section span.period {
+        float: right;
+        font-style: italic;
+        display: none;
+    }
+
+    section span.employer {
+        font-weight: bold;
+        float: left;
+        width: 50%;
+        margin-bottom: 4px;
+    }
+}
+
+@media screen and (max-width:550px) {
+
+    .version {
+        display: none;
+    }
+
+    .location {
+        display: none;
+    }
+
+    section span.remaining-period {
+        display: none;
+    }
+
+    section span.position {
+        width: 50%;
+        float: right;
+        font-style: italic;
+        margin-bottom: 5px;
+        text-align: right;
+        font-size: small;
+    }
+
+    section span.employer {
+        font-weight: bold;
+        float: left;
+        width: 50%;
+        margin-bottom: 4px;
+    }
+
+    section span.micro {
+        float: left;
+        width: 50%;
+    }
+
+    section span.long {
+        width: 60%;
+    }
+
+    section span.micro-long {
+        width: 40%;
+    }
+
+}
+
+@media screen and (max-width:330px) {
+    section span.micro-long {
+        display: block;
+    }
+
+    section span.micro {
+      display: block;
+    }
+
+    section span.employer {
+        font-weight: bold;
+
+        width: 100%;
+        margin-bottom: 4px;
+    }
+
+    section span.position {
+        width: auto;
+        font-style: italic;
+        margin-bottom: 5px;
+        text-align: left;
+        font-size: small;
+        float: left;
+    }
+}
 
 .fix {
     clear: both;
