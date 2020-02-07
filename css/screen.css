@@ -232,9 +232,14 @@ section a:hover,
         width: 50%;
         margin-bottom: 4px;
     }
+
+    section span.remaining-period {
+        display: none;
+    }
 }
 
-@media screen and (max-width:550px) {
+/* Adjusting for screens max 565px */
+@media screen and (max-width:565px) {
 
     .version {
         display: none;
@@ -249,63 +254,37 @@ section a:hover,
     }
 
     section span.position {
-        width: 50%;
-        float: right;
-        font-style: italic;
-        margin-bottom: 5px;
-        text-align: right;
-        font-size: small;
-    }
-
-    section span.employer {
-        font-weight: bold;
-        float: left;
-        width: 50%;
-        margin-bottom: 4px;
-    }
-
-    section span.micro {
-        float: left;
-        width: 50%;
-    }
-
-    section span.long {
-        width: 65%;
-        float: left;
-    }
-
-    section span.micro-long {
-        width: 35%;
-        float: right;
-    }
-
-}
-
-@media screen and (max-width:402px) {
-    section span.micro-long {
-        display: block;
-    }
-
-    section span.micro {
-      display: block;
-    }
-
-    section span.employer {
-        font-weight: bold;
-
-        width: 100%;
-        margin-bottom: 4px;
-    }
-
-    section span.position {
         width: auto;
         font-style: italic;
-        margin-bottom: 5px;
         text-align: left;
         font-size: small;
         float: left;
     }
+
+    section span.employer {
+        font-weight: bold;
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+    section span.micro {
+        display: block;
+        margin-bottom: 15px;
+      }
+
+    section span.long {
+        width: 100%;
+        float: left;
+        margin-bottom: 0px;
+    }
+
+    section span.micro-long {
+        display: block;
+        margin-bottom: 15px;
+    }
+
 }
+
 
 .fix {
     clear: both;
