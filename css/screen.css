@@ -272,7 +272,7 @@ section a:hover,
     }
 
     section span.position {
-        width: auto;
+        width: 100%;
         font-style: italic;
         text-align: left;
         font-size: small;
@@ -281,7 +281,7 @@ section a:hover,
 
     section span.employer {
         font-weight: bold;
-        width: 100%;
+        width: 50%;
         margin-bottom: 0px;
     }
 
@@ -289,6 +289,7 @@ section a:hover,
         float: left;
         margin-bottom: 15px;
         text-align: left;
+        width: 100%;
       }
 
     section span.long {
