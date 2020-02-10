@@ -197,6 +197,15 @@ section a:hover,
     text-shadow: 3px 3px 10px grey;
 }
 
+section p.response {
+padding-top: 10px;
+}
+
+section ul {
+    padding-bottom: 10px;
+}
+
+
 /* Adjusting for screens max 880px */
 @media screen and (max-width:880px) {
     .version {
