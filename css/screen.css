@@ -124,6 +124,19 @@ section span.employer {
     width: 50%;
 }
 
+
+.summary {
+    text-align: justify;
+}
+
+.quote {
+    text-align: center;
+}
+
+.author {
+    text-align: center;
+}
+
 section span.location {
     margin-left: auto;
     float: right;
@@ -226,6 +239,7 @@ section ul {
         width: 100%;
         text-align: justify;
     }
+
 
     section div ul {
         margin: 0px;
