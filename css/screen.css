@@ -115,6 +115,13 @@ footer p {
     margin-top: 0;
 }
 
+.code {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
 footer hr {
     margin-bottom: 0;
 }
@@ -126,6 +133,19 @@ section span.employer {
     font-weight: bold;
     float: left;
     width: 50%;
+}
+
+
+.summary {
+    text-align: justify;
+}
+
+.quote {
+    text-align: center;
+}
+
+.author {
+    text-align: center;
 }
 
 section span.location {
@@ -231,6 +251,7 @@ section ul {
         text-align: justify;
     }
 
+
     section div ul {
         margin: 0px;
         text-align: left;
@@ -272,6 +293,10 @@ section ul {
         float: right;
         width: 50%;
         text-align: right;
+    }
+
+    .code {
+       display: none;
     }
 }
 
@@ -329,6 +354,10 @@ section ul {
         float: left;
         margin-bottom: 15px;
     }
+
+    .code {
+        display: none;
+     }
 
 }
 
